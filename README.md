@@ -7,7 +7,7 @@ Movie-DataBase is an amazing app through which you can find shows you love more 
 
 # Requirements
 
-Use "npm start" to run this project after cloning. Run "server.js" seperately otherwise u will get CORS Error.
+Use "npm start" to run this project after cloning. Run "server.js" seperately.
 
 # Features
 
