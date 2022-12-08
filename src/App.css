@@ -1,38 +1,481 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-size: 2vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-bottom: 8px; */
+  box-shadow: 0px 0px 10px 0px black;
+  background-color: rgb(22, 22, 22);
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(31, 30, 30);
+  /* background-color: rgb(234, 231, 228); */
+
+  /* background-color: blueviolet; */
+  /* background: linear-gradient(rgb(64, 64, 236), rgb(123, 123, 242)) */
+}
+
+.heading {
+  font-size: 2.8vw;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  color: orange;
+  text-shadow: 3px 3px 3px black;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.homeContent {
+  display: flex;
+  min-height: 83vh;
+  width: 100%;
+
+}
+
+.leftHome {
+  width: 20%;
+  padding: 2%;
+
+  /* background-color: rgb(106, 37, 170); */
+}
+
+.leftHome h3 {
+  font-size: 1.8vw;
+  font-family: cursive;
+  padding-bottom: 10px;
+  color: yellowgreen;
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: 8px;
+}
+
+.leftHome ul {
+  list-style-type: none;
+}
+
+.leftHome ul li {
+  font-size: 1.5vw;
+  margin-top: 7px;
+  cursor: pointer;
+  font-weight: 600;
+  color: orange;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rightHome {
+  width: 80%;
+  padding: 1%;
   display: flex;
   flex-direction: column;
+  overflow: auto;
+}
+
+.upperHome {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  color: orange;
+  text-align: center;
+}
+
+.upperHome select {
+  padding: 2%;
+}
+
+.upperHome div {
+  font-size: 1.5vw;
+}
+
+.upperHome h3 {
+  font-size: 1.8vw;
+  color: orange;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.displayContent {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.displayItem {
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  word-wrap: break-word;
+  overflow: hidden;
+  font-size: 1.5vw;
+  color: yellowgreen;
+}
+
+.displayItem:hover {
+  transform: scale(1.15);
+  transition: 0.5s;
+  z-index: 10;
+  color: yellowgreen;
+  background-color: rgb(9, 9, 9);
+  border-radius: 8px;
+}
+
+.upperHome button {
+  cursor: pointer;
+  font-size: 1.5vw;
+  margin: 0px 10px;
+  padding: 5px;
+  background-color: greenyellow;
+}
+
+.displayItem img {
+  height: 320px;
+  width: 250px;
+  padding: 2%;
+}
+
+.navigatePage {
+  text-align: center;
+  font-size: 1.5vw;
+  color: orange;
+}
+
+.navigatePage button {
+  cursor: pointer;
+  font-size: 1.5vw;
+  padding: 5px;
+  background-color: greenyellow;
+}
+
+.selectedGenre {
+  background-color: rgb(13, 13, 13);
+  padding: 5px;
+  /* text-shadow: 2px 2px 2px greenyellow;
+  background-color: yellow; */
+}
+
+.modal {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  font-size: 50px;
+  z-index: 15;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlayModal {
+  display: flex;
+  font-size: 1vw;
+  width: 70%;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.overlayModal button {
+  padding: 5px;
+  font-size: 2vw;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modeRight {
+  overflow: auto;
+}
+
+.modeRight h1 {
+  color: orange;
+  font-size: 3vw;
+}
+
+.modeRight p {
+  font-size: 1.2vw;
+  padding: 10px;
+}
+
+.ratings {
+  color: yellowgreen;
+}
+
+.genres {
+  color: rgb(206, 236, 34);
+  font-weight: 800;
+  font-family: cursive;
+}
+
+.homepage input {
+  padding: 10px;
+  font-size: 1.3vw;
+  width: 400px;
+  border: 5px solid silver;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.homepage button {
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.outerDiv {
+  height: 92vh;
+  background-color: rgb(31, 30, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+  width: 90%;
+  background-color: rgb(31, 30, 30);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px black;
+  text-align: center;
+  overflow: auto;
+}
+
+.signUpLeft,
+.loginRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid black;
+  padding: 5px 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px black;
+  background-color: rgb(41, 40, 40);
+}
+
+.innerDiv h1 {
+  color: orange;
+  font-size: 2.5vw;
+  text-shadow: 0px 2px 2px black;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  margin: 20px;
+}
+
+.innerDiv form {
+  height: 70%;
+  padding: 10px;
+  /* gap: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  flex-direction: column;
+
+}
+
+.innerDiv label {
+  color: orange;
+  /* text-decoration: underline; */
+  font-weight: 800;
+}
+
+.innerDiv input {
+  font-size: 1.5vw;
+  padding: 5px;
+}
+
+.innerDiv button {
+  cursor: pointer;
+  font-size: 1.6vw;
+  padding: 5px;
+  margin: 25px 5px;
+  border-radius: 15px;
+  background-color: greenyellow;
+}
+
+.welcomePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 70%; */
+}
+
+.welcomeOptions ul {
+  list-style-type: none;
+}
+
+.welcomeOptions ul li a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.welcomeOptions ul li {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: gray;
+  font-size: 2vw;
+}
+
+.welcomePage h2 {
+  font-size: 2.5vw;
+  color: greenyellow;
+}
+
+.welcomePage h3 {
+  font-size: 2vw;
+  color: greenyellow;
+  text-align: center;
+}
+
+.welcomePage hr {
+  margin: 10px;
+  background-color: gold;
+  border-radius: 10px;
+  border: 3px solid gold;
+}
+
+
+
+.username {
+  color: yellowgreen;
+}
+
+
+
+.logOut button {
+  cursor: pointer;
+  padding: 5px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.dashboardMyMovies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboardMyMovies h2 {
+  font-size: 2.5vw;
+  text-align: left;
+  padding: 20px;
+  color: orange;
+  text-shadow: 0px 2px 2px black;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  margin: 20px;
+}
+
+.dashLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 50px;
+}
+
+.dashLinks li a {
+  text-decoration: none;
+  color: black;
+}
+
+.dashLinks li {
+  background-color: orange;
+  margin: 20px;
+  padding: 50px 80px;
+  border-radius: 20px;
+  font-size: 2.5vw;
+  font-weight: 600;
+  box-shadow: 0px 2px 10px 2px black;
+}
+
+.addmovieDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+form textarea {
+  height: 50px;
+  width: 400px;
+}
+
+.showMovieDiv {
+  display: flex;
+  height: 90%;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  overflow: auto;
+  color: yellowgreen;
+}
+
+.movieTable {
+  border: 2px solid black;
+  background-color: rgb(18, 17, 17);
+}
+
+.movieTable th,
+td {
+  padding: 10px 30px;
+  border: 1px solid black;
+  font-size: 2vw;
+}
+
+.userContent {
+  display: flex;
+  flex-wrap: wrap;
 }
