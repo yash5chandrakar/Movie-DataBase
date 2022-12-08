@@ -18,7 +18,11 @@ Use "npm start" to run this project after cloning. Run "server.js" on seperate t
             <li>Clicking on the Movie poster shows more information regarding it.</li>
             <li>Dark Theme throughout the page lets you find shows you love with ease.</li>
         </ol>
-        
+# Link 
+
+Click&nbsp;<a href="https://dashing-seahorse-d8c84b.netlify.app/">Here</a>&nbsp;to see this Project.
+
+
 # Tech Stacks     
 
 The following tech stacks are used to build this project :-
