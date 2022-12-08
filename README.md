@@ -37,12 +37,16 @@ The following tech stacks are used to build this project :-
 # How it Works
 This website has 4 main routes :-
 1. Home Page :- Home Page shows all the movies present in the DB.
- <img src="https://i.imgur.com/r4HOJXL.png" alt="Main.png">
- 
+ <img src="https://i.imgur.com/DNCffim.png" alt="Main.png">
+ <img src="https://i.imgur.com/ufK8LDH.png" alt="Main.png">
+ <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
 2. MyMovies :- Here LoggedIn user can see his collection of movies as well as manage it.
+ <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
 3. Admin Page :- Here ADMIN users can manage all the users and also have the ability to change user roles.
+ <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
 4. LogIn/SignUp Page :- Users can login and sign up using this page.
-
+ <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
+ 
 # Inspiration & Difficulties
 The idea to build this project came after i decided to build a full functioning E-Com Website. Basically i need to manage my database in a good manner so that it can be maintained when i start to use my E-COM Website. Maintaining Data which are needed for the website to work is a crucial job for a Full Stack Developer. Also i needed to take into account that these data can be changed at any time and the Main Website should reflect this positively. I learned various things from this project and it has accounted to my great growth in my backend skills. 
  
