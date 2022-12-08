@@ -34,12 +34,16 @@ The following tech stacks are used to build this project :-
             <li>CSS</li>
         </ol>
         
-# Inspiration
-The idea to build this project came after i decided to build a full functioning E-Com Website. Basically i need to manage my database in a good manner so that it can be maintained when i start to use my E-COM Website. Maintaining Data which are needed for the website to work is a crucial job for a Full Stack Developer. Also i needed to take into account that these data can be changed at any time and the Main Website should reflect this positively. I learned various things from this project and it has accounted to my great growth in my backend skills. 
- 
 # How it Works
 This website has 4 main routes :-
 1. Home Page :- Home Page shows all the movies present in the DB.
+ <img src="https://i.imgur.com/r4HOJXL.png" alt="Main.png">
+ 
 2. MyMovies :- Here LoggedIn user can see his collection of movies as well as manage it.
 3. Admin Page :- Here ADMIN users can manage all the users and also have the ability to change user roles.
 4. LogIn/SignUp Page :- Users can login and sign up using this page.
+
+# Inspiration & Difficulties
+The idea to build this project came after i decided to build a full functioning E-Com Website. Basically i need to manage my database in a good manner so that it can be maintained when i start to use my E-COM Website. Maintaining Data which are needed for the website to work is a crucial job for a Full Stack Developer. Also i needed to take into account that these data can be changed at any time and the Main Website should reflect this positively. I learned various things from this project and it has accounted to my great growth in my backend skills. 
+ 
+
