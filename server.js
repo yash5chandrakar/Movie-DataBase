@@ -74,7 +74,7 @@ app.post("/api/updateUserPrivelege", (req, res) => {
 })
 
 
-app.post("/api/addUser", (req, res) => {
+app.post("  ", (req, res) => {
     userData.insertOne(req.body, (err) => {
         if (err) {
             console.log("Error ", err)
@@ -85,13 +85,6 @@ app.post("/api/addUser", (req, res) => {
     })
 })
 
-// app.get("/api/getSingleItem", (req, res) => {            // getting a single item for editing
-//     // console.log(req.query.id)rs
-//     myDatabase.findOne({ name: req.query.id }, (err, result) => {
-//         if (err) console.log(err)
-//         res.send(result)
-//     })
-// })
 
 app.get("/api/getItems", (req, res) => {                   // getting all items
     myDatabase.find({}).toArray(function (err, result) {
