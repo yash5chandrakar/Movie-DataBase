@@ -79,6 +79,10 @@ Various APIs provide means to add, delete, edit an item in the database. They ar
   <li><strong>"/api/getItems"</strong> - To get all items present in DB.</li>
   <li><strong>"/api/addItems"</strong> - To add Item in the DB.</li>
   <li><strong>"/api/deleteItem"</strong> - To Delete an Item in DB.</li> 
+  <li><strong>"/api/getUsers"</strong> - To get details of all users.</li> 
+  <li><strong>"/api/getSingleUser"</strong> - To get details of single user using query parameters.</li> 
+  <li><strong>"/api/updateUser"</strong> - To update data of user.</li> 
+  <li><strong>"/api/addUser"</strong> - To add an user.</li> 
 </ol>
 
 
