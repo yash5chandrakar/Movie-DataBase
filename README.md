@@ -7,7 +7,7 @@ Movie-DataBase is an amazing app through which you can find shows you love more 
 
 # Requirements
 
-Use "npm start" to run this project after cloning. Run "server.js" seperately.
+Use "npm start" to run this project after cloning. Run "server.js" on seperate terminal.
 
 # Features
 
