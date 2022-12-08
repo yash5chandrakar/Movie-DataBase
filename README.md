@@ -38,36 +38,36 @@ The following tech stacks are used to build this project :-
 This website has 4 main routes :-
 1. Home Page :- Home Page shows all the movies present in the DB.
 
- <img src="https://i.imgur.com/DNCffim.png" alt="Main.png">
- <img src="https://i.imgur.com/ufK8LDH.png" alt="Main.png">
- <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
+ <img src="https://i.imgur.com/gfU68bc.png" alt="Main.png">
+ <img src="https://i.imgur.com/69oLFBY.png" alt="Main.png">
+ <img src="https://i.imgur.com/XCSna2b.png" alt="Main.png">
 2. MyMovies :- Here LoggedIn user can see his collection of movies as well as manage it.
 
- <img src="https://i.imgur.com/8G0pOus.png" alt="Main.png">
+ <img src="https://i.imgur.com/X9dp5xw.png" alt="Main.png">
  
  See Collection 
  
- <img src="https://i.imgur.com/XCmY10z.png" alt="Main.png">
+ <img src="https://i.imgur.com/soBRmww.png" alt="Main.png">
  
  Add Items
  
-  <img src="https://i.imgur.com/48y4hEa.png" alt="Main.png">
+  <img src="https://i.imgur.com/Gp7suGN.png" alt="Main.png">
  
 3. Admin Page :- Here ADMIN users can manage all the users and also have the ability to change user roles.
 
- <img src="https://i.imgur.com/D2MKkyX.png" alt="Main.png">
+ <img src="https://i.imgur.com/Pl6m5qJ.png" alt="Main.png">
  
 4. LogIn/SignUp Page :- Users can login and sign up using this page.
 
- <img src="https://i.imgur.com/cdYPzpE.png" alt="Main.png">
+ <img src="https://i.imgur.com/byJqceV.png" alt="Main.png">
  
  Once User is logged IN 
  
- <img src="https://i.imgur.com/WOsp5PY.png" alt="Main.png">
+ <img src="https://i.imgur.com/rfws8zv.png" alt="Main.png">
  
  If user is logged out 
  
- <img src="https://i.imgur.com/PWOH6I7.png" alt="Main.png">
+ <img src="https://i.imgur.com/Ni53cfO.png" alt="Main.png">
  
 # Inspiration & Difficulties
 This project challenged me in ways i couldnt think of. Firstly i learned about how to structure a proper database to store userData as well as movies data. Then i learned how to structure my backend using Node and Express. I also learned various new CSS properties while designing the frontEnd part. Overall i am satisfied with the project and i hope you like it.
