@@ -34,7 +34,7 @@ The following tech stacks are used to build this project :-
             <li>CSS</li>
         </ol>
         
-# How it Works
+# Pages
 This website has 4 main routes :-
 1. Home Page :- Home Page shows all the movies present in the DB.
 
@@ -43,15 +43,44 @@ This website has 4 main routes :-
  <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
 2. MyMovies :- Here LoggedIn user can see his collection of movies as well as manage it.
 
- <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
+ <img src="https://i.imgur.com/8G0pOus.png" alt="Main.png">
+ 
+ See Collection 
+ 
+ <img src="https://i.imgur.com/XCmY10z.png" alt="Main.png">
+ 
+ Add Items
+ 
+  <img src="https://i.imgur.com/48y4hEa.png" alt="Main.png">
+ 
 3. Admin Page :- Here ADMIN users can manage all the users and also have the ability to change user roles.
 
- <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
+ <img src="https://i.imgur.com/D2MKkyX.png" alt="Main.png">
+ 
 4. LogIn/SignUp Page :- Users can login and sign up using this page.
 
- <img src="https://i.imgur.com/NMXMLVV.png" alt="Main.png">
+ <img src="https://i.imgur.com/cdYPzpE.png" alt="Main.png">
+ 
+ Once User is logged IN 
+ 
+ <img src="https://i.imgur.com/WOsp5PY.png" alt="Main.png">
+ 
+ If user is logged out 
+ 
+ <img src="https://i.imgur.com/PWOH6I7.png" alt="Main.png">
  
 # Inspiration & Difficulties
-The idea to build this project came after i decided to build a full functioning E-Com Website. Basically i need to manage my database in a good manner so that it can be maintained when i start to use my E-COM Website. Maintaining Data which are needed for the website to work is a crucial job for a Full Stack Developer. Also i needed to take into account that these data can be changed at any time and the Main Website should reflect this positively. I learned various things from this project and it has accounted to my great growth in my backend skills. 
+This project challenged me in ways i couldnt think of. Firstly i learned about how to structure a proper database to store userData as well as movies data. Then i learned how to structure my backend using Node and Express. I also learned various new CSS properties while designing the frontEnd part. Overall i am satisfied with the project and i hope you like it.
+
+# API Calls
+Various APIs provide means to add, delete, edit an item in the database. They are as follows :-
+<ol>
+  <li><strong>"/api/getSingleItem"</strong> - for getting a single Item (for Edit).</li>
+  <li><strong>"/api/getItems"</strong> - To get all items present in DB.</li>
+  <li><strong>"/api/addItems"</strong> - To add Item in the DB.</li>
+  <li><strong>"/api/deleteItem"</strong> - To Delete an Item in DB.</li> 
+</ol>
+
+
  
 
